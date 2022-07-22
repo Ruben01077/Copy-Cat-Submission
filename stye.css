@@ -1,0 +1,367 @@
+
+
+    header {
+
+        width: 100%;
+
+    }
+
+    .header-top-div {
+
+        background-color: rgb(16, 47, 126);
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+
+    }
+
+
+
+.copartAtag{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-size: 50px;
+
+}
+
+.copartAtag:hover{
+
+   color: white;
+
+}
+
+
+    .Copart {
+
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        font-size: 40px;
+        margin: 35px;
+       
+
+    }
+
+    .search-box {
+
+        width: 544px;
+        cursor: pointer;
+        text-align: center;
+        flex-wrap: nowrap;
+        margin-right: 510px;
+        border: none;
+
+
+
+    }
+
+    form{
+
+        width: 700px;
+       
+
+    }
+
+    .search-input {
+
+        padding: 10px 7px 10px 19px;
+        border-radius: 7px;
+        width: 544px;
+        border: none;
+
+
+
+    }
+
+    .search-button {
+
+        background-color: rgb(255, 184, 56);
+        border-radius: 7px;
+        color: black;
+        font-weight: bolder;
+        padding: 10px 7px 10px 7px;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+        width: 138px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .search-box:hover {}
+
+
+
+
+
+
+
+
+
+    .sig-in-div {
+width: 250px;
+  
+
+    }
+    
+
+
+    .register {
+
+        padding: 10px 7px 10px 7px;
+        background-color: rgb(255, 184, 56);
+        border-radius: 7px;
+        color: black;
+        font-weight: bolder;
+        border: none;
+        margin-right: 10px;
+        width: 80px;
+        cursor: pointer;
+        height: 40px;
+       
+      
+
+    }
+
+    .Sign-In {
+
+        padding: 10px 15px 10px 15px;
+        background-color: rgb(30, 120, 255);
+        color: white;
+        border-radius: 7px;
+        border: none;
+        font-weight: bolder;
+        width: 100px;
+        height: 40px;
+        margin-right: 15px;
+        cursor: pointer;
+
+
+
+    }
+
+
+    .header-bottom-div{
+
+        background-color: black;
+        height: 60px;
+        align-items: center;
+        width: 100%;
+        display: flex;
+
+
+    }
+
+    .header-bottom-div div{
+
+        width: 150px;
+     
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+        
+
+
+    }
+
+
+  
+
+    .btn.btn-secondary {
+
+
+--bs-btn-focus-shadow-rgb: 0,0,0;
+background-color: black;
+color: white;
+--bs-btn-hover-bg: blue;
+height: 53px;
+border-radius: 0%;
+}
+
+
+
+.btn.btn-secondary.dropdown-toggle , .btn.btn-secondary {
+
+    background-color: black;
+border: none;
+
+}
+
+
+.dropdown-menu.show{
+
+    background-color: black;
+    color: white;
+
+    border-radius: 0%;
+
+}
+
+.dropdown-item{
+
+    color: rgb(255, 255, 255);
+   
+    --bs-dropdown-link-hover-bg: #0025f5;
+    --bs-dropdown-link-color:white;
+    --bs-dropdown-link-hover-color: #ffffff;
+    
+}
+
+
+    .btn-group {
+
+
+        color: white;
+        
+    }
+
+    .btn {
+
+        --bs-btn-border-width: 0px;
+    
+
+    }
+
+.top-picture{
+
+width: 100%;
+
+}
+
+
+
+.popular-vehicle div{
+
+
+height: 100%;
+border-radius: 15px;
+
+
+
+
+}
+
+
+.popular-vehicle-text-div{
+
+ 
+    margin-left: 65px;
+    margin-top: 30px;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #0025f5;
+
+   
+
+
+}
+
+.popular-vehicle-text-div h2 {
+
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+
+
+.popular-vehicle div img{
+
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.flex-box-popular-vehicle{
+
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 19px 0.1px lightgray ;
+    
+
+
+
+}
+
+.popular-vehicle-text{
+
+padding-left: 10px;
+background-color: rgba(245,249,253,255);
+
+}
+
+
+.popular-vehicle{
+
+margin-top: 20px;
+display: flex;
+gap: 4em;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+background-color: rgba(245,249,253,255);
+padding-top: 20px;
+
+}
+
+body{
+
+height: 1500px;
+background-color: rgba(245,249,253,255);
+
+}
+
+.view-details-div{
+
+display: flex;
+gap: 6em;
+justify-content: flex-start;
+align-items: center;
+padding-bottom: 15px;
+
+}
+
+.view-details{
+
+width: 160px;
+border-radius: 15px;
+padding: 5px;
+color: white;
+background-color: #0025f5;
+border: none;
+
+
+}
+
+.start-bid{
+
+color: #279301;
+
+}
+
+.lot-number{
+
+
+    color: #287eff;
+}
+
+
+.watch{
+
+color: #1254ff;
+
+}
+
+
+.cars-by-make-model-img{
+
+width: 100%;
+
+
+}
